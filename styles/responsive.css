@@ -1,0 +1,45 @@
+/* small device */
+@media screen and (max-width: 600px) {
+    /* nav start */
+    .nav-title{
+        width: 90%;
+    }
+    .nav-container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        width: 10%;
+        align-items: center;
+    }
+    .nav-items {
+        position: absolute;
+        top: 45px;
+        display: block;
+    }
+    .nav-items a{
+
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid white;
+        padding: 5px;
+        background-color: #222;
+        color: white;
+    }
+    .nav-container label{
+        display: inline-block;
+        font-size: 1.5rem;
+        position: absolute;
+    }
+    .nav-items {
+        display: none;
+    }
+    .nav-container input:checked ~ .nav-items{
+        display: block;
+    }
+    /* nav end */
+
+    /* banner start */
+
+    /* banner end */
+
+}
