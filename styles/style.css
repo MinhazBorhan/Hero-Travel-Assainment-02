@@ -363,3 +363,25 @@ body {
 #span-2{
     font-size: 32px;
 }
+
+/* footer sesction */
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 70px 335px;
+    margin-top: 50px;
+}
+.footer-title{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.footer-section hr{
+    margin-bottom: 40px;
+}

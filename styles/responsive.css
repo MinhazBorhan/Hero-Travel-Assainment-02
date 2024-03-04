@@ -146,11 +146,17 @@
         left: 35%;
         bottom: 18%;
     }
-    #span-1{
+
+    #span-1 {
         font-size: 16px;
     }
-    #span-2{
+
+    #span-2 {
         font-size: 21px;
+    }
+
+    .footer-section {
+        padding: 20px;
     }
 
 }
