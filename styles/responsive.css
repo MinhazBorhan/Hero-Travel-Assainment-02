@@ -1,9 +1,11 @@
 /* small device */
 @media screen and (max-width: 600px) {
+
     /* nav start */
-    .header-section{
+    .header-section {
         margin: 10px 20px;
     }
+
     .nav-title {
         width: 90%;
     }
@@ -53,11 +55,13 @@
         padding: 0;
         margin: 10px 20px;
     }
-    .banner-container{
+
+    .banner-container {
         padding: 50px 20px;
         justify-content: center;
         align-items: center;
     }
+
     .banner-text h1 {
         font-size: 1.5rem;
     }
@@ -65,22 +69,88 @@
     .banner-text p {
         font-size: 0.9rem;
     }
-    .banner-icons{
+
+    .banner-icons {
         flex-direction: column;
     }
+
     /* banner end */
 
     /* first-section */
-    .first-section{
+    .first-section {
         margin: 10px 20px;
         flex-direction: column;
     }
-    .first-section-container{
+
+    .first-section-container {
         width: 100%;
         margin-bottom: 30px;
     }
-    .first-section-img{
+
+    .first-section-img {
         width: 100%;
+    }
+
+    /* second section start */
+    .second-section {
+        margin: 20px;
+    }
+
+    .second-section-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .second-section-img-container img {
+        width: 335px;
+        height: 176px;
+    }
+
+    /* third section style */
+    .third-section {
+        margin: 20px;
+    }
+
+    /* fourth section style */
+    .fourth-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+    }
+
+    .fourth-section-input {
+        width: 90%;
+        height: 90%;
+        padding: 20px;
+    }
+
+    .fourth-section-input input {
+        width: 100%;
+    }
+
+    .fourth-section-input button {
+        width: 100%;
+    }
+
+    .fourth-section-discount {
+        width: 90%;
+    }
+
+    .fourth-section-discount img {
+        width: 100%;
+    }
+
+    .fourth-section-discount p {
+        width: 214.023px;
+        height: 79.268px;
+        padding: 13px;
+        left: 35%;
+        bottom: 18%;
+    }
+    #span-1{
+        font-size: 16px;
+    }
+    #span-2{
+        font-size: 21px;
     }
 
 }
