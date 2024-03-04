@@ -85,43 +85,58 @@ body {
 
 /* header section style end */
 
+/* banner section start */
 .banner-section {
     max-width: 1200px;
     min-height: 500px;
     margin: 25px auto;
-    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('../Images/Group\ 13.png');
+    padding: 106px 287px;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url('../Images/Group\ 13.png');
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
-.banner-text-container h1 {
-    font-size: 64px;
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    /* padding: auto; */
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text h1 {
+    font-size: 4rem;
     font-weight: 800;
     color: white;
 }
-.banner-text-container p{
+
+.banner-text p {
     color: white;
 }
+
 .banner-icons {
-    width: 800px;
-    height: 84px;
     background: rgba(255, 255, 255, 0.3);
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 25px auto;
+    align-items: center;
     border-radius: 10px;
     gap: 20px;
+    padding: 15px;
 }
 
 .banner-icons input {
     width: 174px;
     height: 52px;
     border-radius: 8px;
-    padding-left: 6px;
+    padding: 13px 50px 13px 7px;
     border: 0;
 }
 
@@ -141,3 +156,46 @@ body {
     border: 0;
     border-style: none;
 }
+
+/* banner section end */
+
+/* first section start */
+.first-section {
+    max-width: 1200px;
+    margin: 70px auto;
+    border-radius: 8px;
+    display: flex;
+}
+
+.first-section-container {
+    width: 50%;
+    text-align: left;
+    /* padding-left: 20px; */
+}
+.first-section-container h3 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.first-section-container p{
+    margin-bottom: 36px;
+}
+.first-section-container ul{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.first-section-container ul li{
+    margin-bottom: 30px;
+}
+
+.first-section-img {
+    width: 50%;
+}
+
+.first-section-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-section-ul {}
