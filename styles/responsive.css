@@ -54,6 +54,9 @@
     .banner-section {
         padding: 0;
         margin: 10px 20px;
+        background-size: cover;
+        /* width: 100vw; */
+        background-position: 50%;
     }
 
     .banner-container {
@@ -64,6 +67,7 @@
 
     .banner-text h1 {
         font-size: 1.5rem;
+        margin-bottom: 10px;
     }
 
     .banner-text p {
@@ -72,6 +76,16 @@
 
     .banner-icons {
         flex-direction: column;
+        width: 287px;
+    }
+    .banner-icons input{
+        width: 250px;
+    }
+    .banner-select{
+        width: 250px;
+    }
+    .banner-primary-btn{
+        width: 250px;
     }
 
     /* banner end */
@@ -156,7 +170,6 @@
     }
     /* footer style */
     .footer-section {
-        width: 100%;
         padding: 20px;
     }
 

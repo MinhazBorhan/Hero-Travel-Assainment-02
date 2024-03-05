@@ -385,6 +385,10 @@ body {
 .icon{
     margin-top: 20px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .footer-section hr{
     margin-bottom: 40px;
