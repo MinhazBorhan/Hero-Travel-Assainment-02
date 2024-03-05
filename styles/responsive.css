@@ -154,8 +154,9 @@
     #span-2 {
         font-size: 21px;
     }
-
+    /* footer style */
     .footer-section {
+        width: 100%;
         padding: 20px;
     }
 
