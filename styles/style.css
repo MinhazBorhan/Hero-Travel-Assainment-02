@@ -366,11 +366,16 @@ body {
 
 /* footer sesction */
 .footer-section{
-    max-width: 1200px;
     text-align: center;
     padding: 70px 335px;
     margin-top: 50px;
     background: rgba(19, 19, 24, 0.05);
+}
+.footer-section-container{
+    max-width: 1200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .footer-title{
     font-weight: 800;
